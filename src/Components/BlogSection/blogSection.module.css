@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.blog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 30px;
+}
+.text-section {
+  width: 30%;
+  font-family: Rajdhani;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #36ba6f;
+}
+
+.paragraf {
+  font-family: Rajdhani;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-align: left;
+  color: #202636;
+}
+
+.line {
+  width: 40px;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #36ba6f;
+}
+
+.read-more {
+  width: 8%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 40px;
+  color: white;
+  background-color: #0052b4;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-1 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: #202636 5px 5px 20px;
+}
+.card-text-section {
+  margin-left: 20px;
+}
+.text-1 {
+  font-family: Rajdhani;
+  font-size: 22px;
+  font-weight: 500;
+  color: #00b5e2;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text-2 {
+  font-family: Rajdhani;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #202636;
+}
+.text-3 {
+  flex-grow: 0;
+  font-family: Rajdhani;
+  font-size: 18px;
+  font-weight: 400;
+  color: #737b8f;
+}
+.image {
+  object-fit: fill;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.read-more2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-grow: 0;
+  font-family: Rajdhani;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #0052b4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

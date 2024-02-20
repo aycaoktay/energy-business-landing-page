@@ -1,0 +1,122 @@
+.product-container {
+  height: 100vh;
+  padding: 15px 0 70px;
+  display: flex;
+}
+.cloud {
+  position: absolute;
+  object-fit: fill;
+  right: 0;
+}
+.img-decarbonization {
+  flex-direction: column;
+  width: 484px;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  border-radius: 24px;
+}
+.product-icons {
+  width: 24vh;
+  height: 25vh;
+  background-color: rgba(0, 8, 22, 0.62);
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 20%;
+  border-radius: 24px;
+  -webkit-backdrop-filter: blur(60px);
+  backdrop-filter: blur(11px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  width: 7vh;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 20px;
+  border-radius: 56px;
+  box-shadow: 0 19px 56px 0 rgba(0, 82, 180, 0.16);
+  background-color: #fff;
+}
+
+.vector {
+  position: fixed;
+  width: 32px;
+  height: 40px;
+  border-radius: 0% 100% 100% 100%;
+  transform: rotate(45deg);
+  clear: left;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.44);
+  background-color: #0052b4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vector-icons {
+  height: 16px;
+  border: solid 4px #fff;
+  transform: rotate(135deg);
+}
+.hydro-text {
+  font-family: Rajdhani;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1;
+  color: #fff;
+}
+
+.product-text {
+  width: 624px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.product-title {
+  width: 696px;
+  font-family: var(--font-family);
+  font-size: 56px;
+  font-weight: 500;
+  color: #202636;
+}
+
+.learn-more {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 600;
+  color: #0052b4;
+  text-decoration: none;
+}
+
+.learn-more img {
+  vertical-align: middle;
+  margin: 0;
+}
+.product-image {
+  width: 376px;
+  height: 492px;
+  margin-left: 2vh;
+}
+.product-description {
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 32px;
+  flex-grow: 0;
+}
+.product-description p {
+  font-family: var(--font-family);
+  font-size: 24px;
+  color: #737b8f;
+  width: 602px;
+}
