@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./powerSection.module.css";
 import { BsArrowRightCircle } from "react-icons/bs";
+import womenImage from '../../assets/women.png'
+import power from '../../assets/power2.png'
 
 const PowerSection = () => {
   return (
@@ -11,13 +13,13 @@ const PowerSection = () => {
         <div className={styles["image-section"]}>
           <img
             className={styles["image-1"]}
-            src="src/assets/women.png"
-            alt=""
+            src={womenImage}
+            alt="image"
           />
           <img
             className={styles["image-2"]}
-            src="src/assets/power2.png"
-            alt=""
+            src={power}
+            alt="image"
           />
           {/* Container Text Section */}
           <div className={styles["text-section"]}>
@@ -46,7 +48,7 @@ const PowerSection = () => {
           <BsArrowRightCircle size={24} />
         </div>
         <div className={styles["line"]}></div>
-        <p className={styles["paragraf"]}>
+        <p className={styles["paragraph"]}>
           Watch as industry expert John Korsedal, GE Digital, discusses the
           impact of decarbonization in the power generation industry and how
           these trends are driving a mix of more decentralized assets over large

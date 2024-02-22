@@ -2,7 +2,9 @@ import React from "react";
 import styles from "./blogSection.module.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { BsArrowRightCircle } from "react-icons/bs";
-
+import industryImage from '../../assets/industry.png'
+import softwareImage from '../../assets/software.png'
+import industryBlogImage from '../../assets/industry2.png'
 const Blog = () => {
   return (
     <div className={styles["container"]}>
@@ -26,7 +28,7 @@ const Blog = () => {
         {/* Card 1 */}
         <div className={styles["card-1"]}>
           <img
-            src="src/assets/industry.png"
+            src={industryImage}
             className={styles["image"]}
             alt=""
           />
@@ -46,7 +48,7 @@ const Blog = () => {
         </div>
         <div className={styles["card-1"]}>
           <img
-            src="src/assets/software.png"
+            src={softwareImage}
             className={styles["image"]}
             alt=""
           />
@@ -66,7 +68,7 @@ const Blog = () => {
         </div>
         <div className={styles["card-1"]}>
           <img
-            src="src/assets/industry2.png"
+            src={industryBlogImage}
             className={styles["image"]}
             alt=""
           />

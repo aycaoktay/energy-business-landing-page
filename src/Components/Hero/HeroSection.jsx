@@ -1,7 +1,9 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import styles from './HeroSection.module.css';
-
+import cardImage from '../../assets/cardimage.png';
+import playImage from '../../assets/Play.png'
+import globeImage from '../../assets/Ic_Globe.png'
 const HeroText = () => {
   return (
     <div className={styles['hero-text']}>
@@ -28,9 +30,9 @@ const Card = () => {
       <span className={styles['card-text']}>10M+</span>
       <span className={styles['card-text2']}>Worldwide product <br />sales per year</span>
       <div className={styles['card-img']}>
-        <img src="src/assets/cardimage.png" alt="img" />
+        <img src={cardImage} alt="img" />
       </div>
-      <img src="src/assets/Play.png" alt="playicon" className={styles['card-icon']} />
+      <img src={playImage} alt="play icon" className={styles['card-icon']} />
     </div>
   );
 };
@@ -45,7 +47,7 @@ const TextContainer = () => {
       </span>
       <div>
         <button className={styles.btn}>
-          <img src="src/assets/Ic_Globe.png" alt="icon" />
+          <img src={globeImage} alt="icon" />
           <span className={styles['btn-text']}>Save Earth</span>
         </button>
       </div>

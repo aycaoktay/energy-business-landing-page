@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./SolutionFeature.module.css";
 import { BsFillLightningFill } from "react-icons/bs";
 import { BsFillGrid3X3GapFill } from "react-icons/bs";
+import solutionImage from '../../assets/Image2.png'
 
 const SolutionFeature = () => {
   return (
@@ -24,12 +25,12 @@ const SolutionFeature = () => {
         <div></div>
       </div>
       {/*sağ taraf */}
-      <div className={styles["backgrounds"]}>
+      <div className={styles.backgrounds}>
         <p className={styles["text-two"]}>
           Decarbonization requires balance between legacy systems and emerging
           technologies. Between the environment and business economies.
         </p>
-        <div className={styles["circle"]}>
+        <div className={styles.circle}>
           <div className={styles["half-circle"]}></div>
         </div>
       </div>
@@ -38,8 +39,8 @@ const SolutionFeature = () => {
         {/* resim kısmı */}
         <div className={styles["second-section"]}>
           <img
-            src="src/assets/Image2.png"
-            className={styles["images"]}
+            src={solutionImage}
+            className={styles.images}
             alt=""
           />
           <div className={styles["icons-section"]}>

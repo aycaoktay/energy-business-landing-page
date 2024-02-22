@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./Product.module.css";
+import imageSection2 from '../../assets/imagesection2.png'
+import icon from '../../assets/Icon.png'
+import productImage from '../../assets/productimg.png'
+import cloud from '../../assets/Cloud.png'
 const Product = () => {
   return (
     <div className={styles["product-container"]} id="services">
       <img
-        src="src/assets/imagesection2.png"
+        src={imageSection2}
         alt=""
         className={styles["img-decarbonization"]}
       />
@@ -22,10 +26,10 @@ const Product = () => {
           Decarbonization is mission, critical for the planet
         </span>
         <a href="#" className={styles["learn-more"]}>
-          Learn more <img src="src/assets/Icon.png" alt="" />{" "}
+          Learn more <img src={icon} alt="" />{" "}
         </a>
         <img
-          src="./src/assets/productimg.png"
+          src={productImage}
           alt="product"
           className={styles["product-image"]}
         />
@@ -45,7 +49,7 @@ const Product = () => {
           the most remote communities.
         </p>
       </div>
-      <img src="src/assets/Cloud.png" className={styles.cloud} alt="cloud" />
+      <img src={cloud} className={styles.cloud} alt="cloud" />
     </div>
   );
 };
